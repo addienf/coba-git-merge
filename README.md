@@ -75,25 +75,25 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
     cd coba-git-merge
     ```
 
-# 2. Install dependency PHP
+2. Intall dependency
 
     ```bash
     composer install
     ```
 
-# 3. Install dependency JavaScript (untuk Vite / Mix)
+3. Install dependency JavaScript (untuk Vite / Mix)
 
     ```bash
     npm install
     ```
 
-# 4. Salin file environment
+4. Salin file environment
 
     ```bash
     cp .env.example .env
     ```
 
-# 5. Generate app key
+5. Generate app key
 
     ```bash
     php artisan key:generate
