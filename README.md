@@ -11,7 +11,7 @@
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
+<!-- - [Simple, fast routing engine](https://laravel.com/docs/routing).
 - [Powerful dependency injection container](https://laravel.com/docs/container).
 - Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
 - Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
@@ -63,4 +63,28 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT). -->
+
+## 🚀 Cara Memulai Project Ini
+
+1. Clone repo ini:
+    ```bash
+    git clone https://github.com/username/coba-git-merge.git
+    cd coba-git-merge
+    ```
+
+# 2. Install dependency PHP
+
+composer install
+
+# 3. Install dependency JavaScript (untuk Vite / Mix)
+
+npm install
+
+# 4. Salin file environment
+
+cp .env.example .env
+
+# 5. Generate app key
+
+php artisan key:generate
