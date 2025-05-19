@@ -1,9 +1,9 @@
 {
     "private": true,
     "scripts": {
-        "dev": "vite",
-        "serve": "php artisan serve",
-        "dev:all": "concurrently \"npm run serve\" \"npm run dev\""
+        "dev": "concurrently \"npm run vite\" \"php artisan serve\"",
+        "vite": "vite --host",
+        "build": "vite build"
     },
     "devDependencies": {
         "axios": "^1.1.2",
