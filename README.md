@@ -68,23 +68,33 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 ## 🚀 Cara Memulai Project Ini
 
 1. Clone repo ini:
+
     ```bash
     git clone https://github.com/username/coba-git-merge.git
+
     cd coba-git-merge
     ```
 
 # 2. Install dependency PHP
 
-composer install
+    ```bash
+    composer install
+    ```
 
 # 3. Install dependency JavaScript (untuk Vite / Mix)
 
-npm install
+    ```bash
+    npm install
+    ```
 
 # 4. Salin file environment
 
-cp .env.example .env
+    ```bash
+    cp .env.example .env
+    ```
 
 # 5. Generate app key
 
-php artisan key:generate
+    ```bash
+    php artisan key:generate
+    ```
